@@ -1,18 +1,26 @@
-h1 {
+h3 {
     margin: 0px;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .menu-list {
     display: flex;
     list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .menu-list li {
     margin-right: 10px;
   }
+
+body {
+    background-color: #1F2937;
+}
